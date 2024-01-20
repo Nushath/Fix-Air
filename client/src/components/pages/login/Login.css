@@ -1,0 +1,88 @@
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: red; */
+
+}
+
+.login-form{
+    width: 45%;
+    min-height: 300px;
+    padding: 2% 6%;
+    border-radius: 8px;
+    box-shadow: -1px 1px 87px 0px rgba(0, 0, 0, 0.91);
+    text-align: left;
+    transition: all 0.3s ease-in-out;
+}
+
+.head1-login{
+    font-family: "Russo One", sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 3em;
+    line-height: 1.2em;
+    letter-spacing: 0.10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.head3-login{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #ffffff;
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+
+}
+
+.loginButton input[type="text"], .loginButton input[type="password"]{
+    width: 100%;
+    padding: 6px 0px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #9a9a9a;
+    outline: none;
+    background: transparent;
+}
+
+.loginButton button[type="submit"]{
+    width: 100%;
+    padding: 10px 0px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #3b3b3b;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+}
+
+.loginButton button[type="submit"]:hover{
+    background-color: #282828;
+}
+
+.registerButton button[type="submit"]{
+    width: 100%;
+    padding: 10px 0px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #3b3b3b;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.registerButton button[type="submit"]:hover{
+    background-color: #282828;
+}
